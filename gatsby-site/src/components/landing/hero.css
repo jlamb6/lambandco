@@ -1,0 +1,22 @@
+.hero {
+  position: relative;
+  top: 0;
+  left: 0;
+  /*z-index: -1;*/
+  width: 100%;
+  height: 70vh;
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  padding: 22vh 0;
+  color: #fff;
+}
+
+.hero__container {
+  max-width: 960px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  text-align: center;
+}

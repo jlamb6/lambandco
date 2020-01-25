@@ -1,0 +1,34 @@
+.landing {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 10vh;
+}
+
+.landing__container {
+    max-width: 960px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.landing__container h1 {
+    font-size: 4em;
+}
+
+.landing__image {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+a.no-decoration {
+    text-decoration: none;
+    color: inherit;
+}
